@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 const Login = (props) => {
-  // console.log(props)
   return (
     <div className="row">
       <div className="col s12 offset-m2 l6 offset-l3">
         <div class="row ">
           <div className="login-background"></div>
+
         </div>
       </div>
       <div className="login-wrapper login-box">

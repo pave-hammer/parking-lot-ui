@@ -6,7 +6,6 @@ const Root = () => {
     <div className="col s12">
       <div className="logo"></div>
       <div class="row">
-
         <Link to="/sPark-userBook">
           <button className="root-button waves-effect white-text btn">Learn More</button>
         </Link>

@@ -13,8 +13,7 @@ const userBook = (props) => {
           </ul>
         </div>
       </nav >
-      <div class="col s12 font-style">
-        {/* <h1 className="userBookHeader center">How to use...</h1> */}
+      <div className="col s12 font-style">
         <div className="user1">
           <i className="material-icons userIcon">drive_eta</i>
           <p className="userText col s6 center">{`Text your license plate number to 770-766-0070. No downloading necessary!`}</p>

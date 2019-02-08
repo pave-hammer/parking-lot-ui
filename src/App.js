@@ -4,8 +4,7 @@ import NavBar from './components/NavBar'
 import Login from './components/Login'
 import userBook from './components/userBook'
 import Root from './components/Root'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import HomeBody from './components/HomeBody'
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import SpaceManagerList from './components/spacemanagerlist'
 const url = 'https://sparky-server.herokuapp.com/currentusers'
 
