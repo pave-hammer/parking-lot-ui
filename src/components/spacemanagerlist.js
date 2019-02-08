@@ -16,13 +16,12 @@ const SpaceManagerList = (props) => {
         </div>
       </nav>
       <div className="col s8 manager-table-wrapper">
-        <h5 className="lot-header">Vehicles Currently Parked in your lot</h5>
+        <h5 className="lot-header">Vehicles Currently Parked in your parking lot</h5>
         <div className="lot-background">
           <table className="highlight centered ">
             <thead className="manager-table-data">
               <tr className="table-row">
                 <th>License Plate</th>
-                {/* <th>Name</th> */}
                 <th>Time Remaining</th>
               </tr>
             </thead>
