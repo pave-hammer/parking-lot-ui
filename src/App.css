@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background {
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 770px;
+  /* opacity: 0.9; */
+  /* z-index: 0; */
+}
+
+.login-box {
+  background-color: white;
+  /* opacity: 0.9; */
+  /* z-index: 0; */
+  /* border-radius: 5%; */
+}
+
+.card-panel {
+  z-index: -1;
+}
+
+.login-wrapper {
+  margin-top: 80px;
+  padding-left: 6%;
+  padding-right: 5%;
+  position: absolute;
+  z-index: 1;
+}
+
+.user1{
+  background-color: #519da6;
+  padding-top:20px;
+  padding-bottom:7px;
+}
+.user2 {
+  background-color: #fbcd62;
+  padding-top:20px;
+  padding-bottom:7px;
+}
+
+.user3 {
+  background-color: #fe585b;
+  padding-top:20px;
+  padding-bottom:7px;
+}
+
+.userIcon {
+  font-size: 6rem;
+  color: #519da6;
+  display:flex;
+  justify-content: center;
+  margin-left:130px;
+  margin-right:130px;
+  border-radius: 50%;
+   padding: 15px;
+   background-color: white; 
+}
+
+.userIcon1 {
+  font-size: 6rem;
+  color: #fe585b;
+  display:flex;
+  justify-content: center;
+  margin-left:130px;
+  margin-right:130px;
+  border-radius: 50%;
+   padding: 15px;
+   background-color: white; 
+}
+
+.userIcon2 {
+  font-size: 6rem;
+  color: #fbcd62;
+  display:flex;
+  justify-content: center;
+  margin-left:130px;
+  margin-right:130px;
+  border-radius: 50%;
+   padding: 15px;
+   background-color: white; 
+}
+
+.userBookHeader {
+    margin-top: -.1px;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.font-style {
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+    color: white;
+}
+
+.login-background{
+  /* background: url('Splash.png'); */
+  background-color: #fe585b;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* how do I lock the image in place? */
+}
+
+.login-header {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+}
+.userText {
+   margin-right: 50px;
+   margin-left: 50px;
+}
+
+.manager-table-data {
+  font-family: 'Secular One', sans-serif;
+}
+
+.parkedCars {
+  background-color: white
+}
+
+.highlight {
+  background-color: #fbcd62;
+}
+
+.input-field {
+  background-color: #fe585b;
+}
+
+.brand-logo {
+  color: #fe585b;
+}
+
+/* .login {
+  background-color: #61dafb;
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+} */
+
+.loginbtn {
+  background-color: #fbcd62;
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+}
+
+.signupbtn {
+  background-color: #fbcd62;
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+}
+
+.root-button {
+  background-color: #fe585b;
+  font-weight: bold;
+  margin-top: -270px;
+  font-family: 'Secular One', sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  background-color: #fbcd62;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
