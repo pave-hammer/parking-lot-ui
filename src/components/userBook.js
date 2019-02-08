@@ -13,7 +13,7 @@ const userBook = (props) => {
           </ul>
         </div>
       </nav >
-      <div class="col s12 font-style">
+      <div className="col s12 font-style">
         {/* <h1 className="userBookHeader center">How to use...</h1> */}
         <div className="user1">
           <i className="material-icons userIcon">drive_eta</i>
