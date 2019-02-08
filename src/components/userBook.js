@@ -8,7 +8,7 @@ const userBook = (props) => {
           <a href="/" className="brand-logos center">sPark</a>
           <ul className="right">
             <Link to="/sPark-login">
-              <li><button className="loginbtn waves-effect white-text lighten-3 btn">login</button></li>
+              <button className="loginbtn waves-effect white-text lighten-3 btn">login</button>
             </Link>
           </ul>
         </div>

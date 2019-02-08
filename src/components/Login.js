@@ -7,7 +7,7 @@ const Login = (props) => {
     <div className="row">
       <div className="col s12 offset-m2 l6 offset-l3">
         <div class="row ">
-          <img className="login-background" src={process.env.PUBLIC_URL + 'log-in.png'} />
+          <div className="login-background"></div>
         </div>
       </div>
       <div className="login-wrapper login-box">

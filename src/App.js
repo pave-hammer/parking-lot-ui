@@ -56,10 +56,10 @@ class App extends Component {
               navSearch={this.state.navSearch}
               isLoggedIn={this.isLoggedIn}
             />} />
-            <Route path="/sPark-logged-in" render={() => <NavBar
+            {/* <Route path="/sPark-logged-in" render={() => <NavBar
               navSearch={this.state.navSearch}
               isLoggedIn={this.isLoggedIn}
-            />} />
+            />} /> */}
             <Route path="/sPark-space-manager-page" render={() => <SpaceManagerList isLoggedIn={this.state.isLoggedIn} customers={this.state.customers} />} />
 
           </div>
