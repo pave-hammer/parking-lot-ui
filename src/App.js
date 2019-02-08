@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './components/NavBar'
+// import NavBar from './components/NavBar'
 import Login from './components/Login'
 import userBook from './components/userBook'
 import Root from './components/Root'
@@ -14,19 +14,7 @@ class App extends Component {
     this.state = {
       customers: [],
       navSearch: false,
-      isLoggedIn: false,
-      dummyData: [
-        {
-          licPlate: "xyz123",
-          name: "Mike",
-          time: 8
-        },
-        {
-          licPlate: "abc987",
-          name: "Zeke",
-          time: 6
-        }
-      ]
+      isLoggedIn: false
     }
   }
 
