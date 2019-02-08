@@ -5,7 +5,7 @@ const userBook = (props) => {
     <>
       < nav >
         <div className="nav-wrapper grey lighten-3">
-          <a href="/" className="brand-logo light-blue-text lighten-4 center">sPark</a>
+          <a href="/" className="brand-logos center">sPark</a>
           <ul className="right">
             <Link to="/sPark-login">
               <li><button className="loginbtn waves-effect white-text lighten-3 btn">login</button></li>

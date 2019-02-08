@@ -7,7 +7,7 @@ import Root from './components/Root'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import HomeBody from './components/HomeBody'
 import SpaceManagerList from './components/spacemanagerlist'
-const url = 'https://8d1a368d.ngrok.io/currentusers'
+const url = 'https://sparky-server.herokuapp.com/currentusers'
 
 class App extends Component {
   constructor() {
@@ -16,7 +16,7 @@ class App extends Component {
       customers: [],
       navSearch: false,
       isLoggedIn: false,
-      dummyData:[
+      dummyData: [
         {
           licPlate: "xyz123",
           name: "Mike",
@@ -62,8 +62,8 @@ class App extends Component {
             />} />
             <Route path="/sPark-space-manager-page" render={() => <SpaceManagerList isLoggedIn={this.state.isLoggedIn} customers={this.state.customers} />} />
 
-         </div>
-       </Router>
+          </div>
+        </Router>
       </>
     );
   }
