@@ -15,7 +15,7 @@ class App extends Component {
       customers: [],
       navSearch: false,
       isLoggedIn: false,
-      dummyData:[
+      dummyData: [
         {
           licPlate: "xyz123",
           name: "Mike",
@@ -61,8 +61,8 @@ class App extends Component {
             />} />
             <Route path="/sPark-space-manager-page" render={() => <SpaceManagerList isLoggedIn={this.state.isLoggedIn} customers={this.state.customers} />} />
 
-         </div>
-       </Router>
+          </div>
+        </Router>
       </>
     );
   }

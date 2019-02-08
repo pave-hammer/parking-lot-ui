@@ -18,7 +18,7 @@ const Login = (props) => {
         </div>
 
         <Link to="/sPark-space-manager-page" >
-          <button className="loginbtn font-style waves-effect btn" onClick={props.isLoggedIn}>Login</button>
+          <button className="homelogin font-style waves-effect btn" onClick={props.isLoggedIn}>Login</button>
         </Link>
         <button className="signupbtn font-style waves-effect btn">Sign Up</button>
       </div>

@@ -44,9 +44,6 @@
 
 .login-box {
   background-color: white;
-  /* opacity: 0.9; */
-  /* z-index: 0; */
-  /* border-radius: 5%; */
 }
 
 .card-panel {
@@ -130,7 +127,7 @@
   /* background: url('Splash.png'); */
   background-color: #fe585b;
   width: 100%;
-  height: 100%;
+  height: 812px;
   background-size: cover;
  -moz-background-size: cover;
   -o-background-size: cover;
@@ -148,42 +145,75 @@
    margin-left: 50px;
 }
 
+.lot-background{
+  background-image: url('keys.png');
+ background-color: lightgrey;
+  height: 712px;
+}
+
 .manager-table-data {
   font-family: 'Secular One', sans-serif;
+  font-size: 1.2em;
+  /* color: black; */
 }
 
 .parkedCars {
   background-color: white
 }
+.lot-header{
+  background-color: #fbcd62;
+  margin-top: -5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+}
 
 .highlight {
-  background-color: #fbcd62;
+  font-family: 'Secular One', sans-serif;
+  color: white;
+  font-weight: bold;
+  background-color: #fe585b;
+  margin-top: -9px;
+  color: black
+}
+
+.table-row {
+  color: white
 }
 
 .input-field {
-  background-color: #fe585b;
+  background-color: #519da6;
 }
 
-.brand-logo {
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
   color: #fe585b;
-}
-
-/* .login {
-  background-color: #61dafb;
-  font-weight: bold;
   font-family: 'Secular One', sans-serif;
-} */
+}
 
 .loginbtn {
-  background-color: #fbcd62;
+  background-color: #519da6;
   font-weight: bold;
   font-family: 'Secular One', sans-serif;
+  margin-right: 5px;
+  margin-top: -120px;
+}
+.homelogin {
+  background-color: #519da6;
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+  margin-right: 5px;
 }
 
 .signupbtn {
-  background-color: #fbcd62;
+  background-color: #519da6;
   font-weight: bold;
   font-family: 'Secular One', sans-serif;
+  margin-left: 5px;
 }
 
 .root-button {
@@ -198,6 +228,6 @@
 .logo {
   background-color: #fbcd62;
   width: 100%;
-  height: 100%;
+  height: 812px;
   background-size: cover;
 }
